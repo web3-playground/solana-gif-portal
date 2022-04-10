@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+solana = "A77wLrjyr2Kwp4hqsnchfLebpBhNYeyvjsHYGRQcTRzx"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/victor/.config/solana/id.json"
+
+[scripts]
+test = "npx mocha -t 1000000 tests/"
